@@ -1,0 +1,78 @@
+.noflex {
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.game_detail .cont img {
+    /* margin: auto; */
+    display: inline-block;
+    margin-right: 0;
+}
+
+.game_detail .cont h1 {
+    font-weight: bold;
+}
+
+.reload {
+    text-align: center;
+    font-size: .28rem;
+    margin: 0 auto;
+    display: block;
+    /* border: 1px solid #ec2c3e; */
+    color: #fff;
+    background-color: #285A8F;
+    width: auto;
+    height: .6rem;
+    line-height: .6rem;
+    padding: .1rem;
+    margin-top: .4rem;
+    border-radius: .06rem;
+    /* min-width: 2.8rem; */
+}
+
+/* 下载后面的三个点 */
+.dotting {
+    display: inline-block;
+    min-width: 4px;
+    min-height: 4px;
+    box-shadow: 4px 0 currentColor, 12px 0 currentColor, 20px 0 currentColor;
+    -webkit-animation: dot 2.8s infinite step-start both;
+    animation: dot 2.8s infinite step-start both;
+}
+
+@-webkit-keyframes dot {
+    25% {
+        box-shadow: none;
+    }
+
+    50% {
+        box-shadow: 4px 0 currentColor;
+    }
+
+    75% {
+        box-shadow: 4px 0 currentColor, 12px 0 currentColor;
+    }
+}
+
+@keyframes dot {
+    25% {
+        box-shadow: none;
+    }
+
+    50% {
+        box-shadow: 4px 0 currentColor;
+    }
+
+    75% {
+        box-shadow: 4px 0 currentColor, 12px 0 currentColor;
+    }
+}
+
+.gray {
+    background-color: gray;
+}
+
+.gray:active {
+    background-color: gray;
+}
